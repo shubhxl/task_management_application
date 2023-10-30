@@ -1,0 +1,46 @@
+/* src/App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+.task-form label {
+  margin-top: 0.5rem;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.task-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.task-item h3 {
+  margin-bottom: 0.5rem;
+}
+
+.task-item button {
+  margin-top: 0.5rem;
+}
